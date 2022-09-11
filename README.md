@@ -1,2 +1,2 @@
 # MementoMori
-Python integration of the ''death calendar''
+html integration of the ''death calendar''
