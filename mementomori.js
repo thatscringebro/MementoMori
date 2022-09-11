@@ -27,11 +27,13 @@ function remplir(nbsemaines)
                     if(b == nbsemainesperyear / 2)
                         divbox.classList.add("box-break");
                     else
+                    {
                         divbox.classList.add("box");
-                    if(cptsemaine < nbsemaines)
+                        cptsemaine++;
+                    }
+                    if(cptsemaine <= nbsemaines)
                         divbox.classList.add("enabled");
                     divboxes.append(divbox);
-                    cptsemaine++;
                 }
             }
             
