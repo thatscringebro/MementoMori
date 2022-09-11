@@ -1,7 +1,7 @@
 body{
     text-align: center; 
-    background-color:#FCFBFA; 
-    color:#4B4A4A;
+    background-color:#4B4A4A; 
+    color:#858585;
 }
 .decade{
     display: flex;
@@ -19,11 +19,11 @@ body{
 .box{
     width: 8px;
     height: 8px;
-    border: 1px solid #111111;
+    border: 1px solid #858585;
     border-radius: 1px;
 }
 .enabled{
-    background-color: #3a3a3a;
+    background-color: #757575;
 }
 .box-break{
     margin-right: 20px;
